@@ -17,7 +17,6 @@ const MintedModal = (props: any) => {
         <C.Modal>
             <C.Overlay onClick={props.close}></C.Overlay>
             <C.Dialog>
-                <C.MintBg></C.MintBg>
                 <C.DialogHeader>
                     <C.DialogTitle></C.DialogTitle>
                     <C.CloseButton onClick={props.close}>&times;</C.CloseButton>

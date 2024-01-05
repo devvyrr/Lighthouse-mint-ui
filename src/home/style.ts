@@ -20,12 +20,7 @@ export const Bg = styled.div`
     align-items:flex-start;
     overflow:hidden;
 
-    & svg{
-        position:absolute;
-        top:0;
-        height:100%;
-        color:${Hex2Rgba("#1B5072", .32)}
-    }
+    background-color:black;
 `
 
 export const Container = styled.div`
@@ -57,7 +52,7 @@ export const Header = styled.div`
 `
 
 export const Logo = styled.img`
-    width:147px;
+    width:90px;
 `
 
 export const WalletConnect = styled.button`
@@ -141,20 +136,6 @@ export const Launch = styled.div<{showMintedNfts?:string}>`
         flex-direction:column;
         `}
     }
-`
-
-export const LaunchBg = styled.div`
-    background-image:url('/images/mintbg.png');
-    background-position: 100% 0%;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    position:absolute;
-    top:0;
-    right:0;
-    z-index:0;
-    width:100%;
-    height:100%;
-    pointer-events:none;
 `
 
 export const Mid = styled.div`

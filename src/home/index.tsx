@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react"
 import * as C from "./style"
 import { useWalletConnect } from "hooks/walletConnect"
 import config from "config.json"
-import { Bg } from "styles/bg"
 import Wallet, { DropdownItem } from "components/wallet"
 import { getSigningCosmWasmClient } from "@sei-js/core"
 import { SigningCosmWasmClient } from "@cosmjs/cosmwasm-stargate"
@@ -520,7 +519,6 @@ const Home = () => {
 
     return (
         <C.Home>
-            <C.Bg><Bg /></C.Bg>
             <C.Container>
                 <C.Header>
                     <C.Logo src="/images/logo.png" />
@@ -546,7 +544,6 @@ const Home = () => {
 
                     {!loading && (
                         <>
-                            <C.LaunchBg></C.LaunchBg>
                             {!showMintedNfts && (
                                 <>
                                     <C.LaunchInfo>

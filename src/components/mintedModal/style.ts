@@ -175,17 +175,3 @@ export const Button = styled.button`
         background-color:${Hex2Rgba(color.primary, .5)};
     }
 `
-
-export const MintBg = styled.div`
-    background-image:url('/images/mintbg.png');
-    background-position: 100% 0%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position:absolute;
-    top:0;
-    right:0;
-    z-index:0;
-    pointer-events:none;
-    width:100%;
-    height:100%;
-`
