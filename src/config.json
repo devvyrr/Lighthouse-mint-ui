@@ -4,16 +4,23 @@
     "website":"",
     "twitter":"",
     "discord":"",
-    "rpc":"",
+    "rpc":"https://sei-a2-rpc.brocha.in",
     "network":"atlantic-2", 
-    "collection_address":"", 
+    "collection_address":"sei1rmrmwpdeckr5xvetd03t9mqmlz2hdpd6p3msghqdgl5qwehenwwqvx5xxm", 
     "nft_name_type": "default",
     "groups":[
         {
-            "name":"whitelist",
+            "name":"Presale",
             "allowlist":[
-                "sei14v72v7hgzuvgck6v6jsgjacxnt34gj06qnx53d",
-                "sei1t22vwusjlxg4vp7gttsx7n2y9u4k0vv9lpk2ge"
+                "sei17vzdjpfr8dwmul0mt6a2tr5qxz8qsn4735e8u2",
+                "sei123a2le0klntkjd8m6xndny2s308rzsx5qajc3l"
+            ] 
+        },
+        {
+            "name":"Whitelist",
+            "allowlist":[
+                "sei17x5sxzu7md5z2fyv8kg6sexqr89fuktsxsp0s2",
+                "sei123a2le0klntkjd8m6xndny2s308rzsx5qajc3l"
             ] 
         },
         {
